@@ -1,16 +1,102 @@
-# pdmex4
+# 📱 Exemplo de Consumo de API no Flutter
 
-A new Flutter project.
+Este projeto Flutter tem como objetivo demonstrar como consumir a API de Localidades do IBGE. O aplicativo exibe uma lista de todas as UFs do Brasil e, em uma segunda funcionalidade, exibe todas as cidades do estado de **Mato Grosso do Sul (MS)**.
 
-## Getting Started
+## 🚀 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- ✅ Listar todas as UFs do Brasil
+- ✅ Listar todas as cidades do Mato Grosso do Sul (MS)
+- ✅ Consumo de API utilizando o pacote `http`
+- ✅ Exibição dos dados em listas estilizadas
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🎥 Demonstração
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<!-- Se quiser, adicione um print aqui -->
+<img src="assets/app.png" alt="Demonstração do App" width="400"/>
+
+---
+
+## 🔗 API utilizada
+
+- 🌐 [API de Localidades do IBGE](https://servicodados.ibge.gov.br/api/docs/localidades)
+
+---
+
+## 🛠️ Tecnologias
+
+- ✅ **Flutter** 
+- ✅ **Dart**
+- ✅ `http` (para requisições HTTP)
+- ✅ Widgets como `ListView`, `FutureBuilder`, `Card`, `ListTile`
+
+---
+
+## 📦 Estrutura de pastas
+
+```plaintext
+lib/
+├── main.dart
+├── model/
+│   └── uf.dart
+├── services/
+│   └── uf_services.dart
+```
+
+---
+
+## ⚙️ Como executar o projeto
+
+1. Clone este repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd seu-repositorio
+```
+
+3. Instale as dependências:
+
+```bash
+flutter pub get
+```
+
+4. Execute o app:
+
+```bash
+flutter run
+```
+
+---
+
+## ✅ Dependências
+
+- [`http`](https://pub.dev/packages/http) — ^0.13.5
+- `flutter` — versão estável
+
+---
+
+## 💡 Observações
+
+- Este projeto é acadêmico, desenvolvido para fins de aprendizado na disciplina de **Programação para Dispositivos Móveis**.
+- A API do IBGE não requer autenticação.
+
+---
+
+## 👨‍🏫 Créditos
+
+- Desenvolvido por **Seu Nome Aqui**
+- Professor: **[Nome do Professor]**
+- Curso: **[Nome do Curso]**
+- Universidade: **[Nome da Universidade]**
+
+---
+
+## 📜 Licença
+
+Este projeto é de uso acadêmico e livre para estudos.
