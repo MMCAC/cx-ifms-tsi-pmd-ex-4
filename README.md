@@ -14,7 +14,7 @@ Este projeto Flutter tem como objetivo demonstrar como consumir a API de Localid
 ## 🎥 Demonstração
 
 <!-- Se quiser, adicione um print aqui -->
-<img src="assets/app.png" alt="Demonstração do App" width="400"/>
+<img src="assets/image.png" alt="Demonstração do App" width="400"/>
 
 ---
 
@@ -51,13 +51,13 @@ lib/
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/MMCAC/cx-ifms-tsi-pmd-ex-4.git
 ```
 
 2. Acesse a pasta do projeto:
 
 ```bash
-cd seu-repositorio
+cd lib
 ```
 
 3. Instale as dependências:
@@ -90,10 +90,10 @@ flutter run
 
 ## 👨‍🏫 Créditos
 
-- Desenvolvido por **Seu Nome Aqui**
-- Professor: **[Nome do Professor]**
-- Curso: **[Nome do Curso]**
-- Universidade: **[Nome da Universidade]**
+- Desenvolvido por **Maicon Cezar Azambuja da Cunnha**
+- Professor: **[Gustavo Yoshio Maruyama]**
+- Curso: **[Tecnologia em Sistemas para Internet]**
+- Universidade: **[Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul - IFMS (Câmpus Coxim)]**
 
 ---
 
